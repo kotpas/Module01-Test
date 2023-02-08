@@ -1,4 +1,5 @@
 .header {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     border-bottom: 1px solid #131313;
     padding-bottom: 20px;
@@ -6,7 +7,10 @@
 }
 .logo {
     margin-right: 50px;
-    text-decoration: none;
+    text-decoration: 0;
+    color: lightgreen;
+    background-color: rebeccapurple;
+    font-weight: 700;
 }
 ul {
     display: flex;
@@ -30,6 +34,9 @@ ul > li {
 .post {
     padding-bottom: 20px;
 }
-.footer {
-    font-size: 50px; 
+footer {
+    font-size: 13px; 
+}
+a {
+    text-decoration: none;
 }
