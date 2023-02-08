@@ -1,9 +1,10 @@
 body {
-    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 h1 {
     color: red;
+    font-weight: 700;
 }
 p {
-    color: rgb(3, 140, 253);
+    color: rgb(253, 3, 3);
 }
