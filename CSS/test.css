@@ -58,3 +58,10 @@ section {
     padding: 5px 20px;
     margin-bottom: 20px;
 }
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+ul>li marging-right
