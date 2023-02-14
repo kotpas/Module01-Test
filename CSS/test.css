@@ -8,6 +8,7 @@
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
+
 }
 .logo {
     margin-right: 50px;
@@ -46,8 +47,8 @@ footer {
 }
 a {
     text-decoration: none;
-    color: rebeccapurple;
     font-weight: 700;
+    color: rebeccapurple;
 }
 h1, h2, h3 {
     text-transform: uppercase;
@@ -60,8 +61,11 @@ section {
 }
 .link {
     background-color: rebeccapurple;
-    color: white;
+    text-decoration-color: white;
     padding: 8px 15px;
     margin-left: 10px;
+    color: white;
 }
-ul>li marging-right
+.link li :last-child {
+    margin-right: 0px;
+}
