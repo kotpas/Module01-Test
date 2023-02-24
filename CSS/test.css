@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     border-bottom: 1px solid #131313;
-    padding-bottom: 20px;
     font-size: 20px;
     padding-top: 10px;
     padding-left: 20px;
@@ -16,12 +15,14 @@
     color: lightgreen;
     background-color: rebeccapurple;
     font-weight: 700;
-    padding-top: 5px 15px;
+    padding: 10px;
+
 }
 ul {
     display: flex;
     list-style-type: none;
     padding-left: 30px;
+    gap: 10px;
 }
 .box {
     display: flex;
@@ -55,14 +56,20 @@ section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+
 }
 .link {
     background-color: rebeccapurple;
     text-decoration-color: white;
-    padding: 8px 15px;
-    margin-left: 10px;
+    padding: 10px 15px;
     color: white;
+    display: block;
+    text-align: center;
 }
 .link li :last-child {
     margin-right: 0px;
+}
+.results {
+    display: flex;
+    gap: 10px;
 }
